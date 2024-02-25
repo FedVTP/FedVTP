@@ -22,6 +22,7 @@ The NGSIM and HighD datasets can be downloaded from their official website. To s
 Models will be saved at `/models` with the dataset name and training datetime.
 
 ## Result
+
 <figure class="half" height=160>
     <img src="bar1.png">
     <img src="bar2.png">
