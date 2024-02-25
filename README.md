@@ -22,6 +22,12 @@ The NGSIM and HighD datasets can be downloaded from their official website. To s
 Models will be saved at `/models` with the dataset name and training datetime.
 
 ## Result
+### Federated performance in NGSIM and HighD dataset
 
 ![pic](bar1.png) | ![pic](bar2.png)
+---|---
+
+### Communication in NGSIM and HighD dataset
+
+![pic](point1.png) | ![pic](point2.png)
 ---|---
