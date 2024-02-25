@@ -23,22 +23,5 @@ Models will be saved at `/models` with the dataset name and training datetime.
 
 ## Result
 
-<center>
-<figure>
-<img src="bar1.png" />
-·
-·
-·
-<img src="bar2.png" />
-</figure>
-</center>
-
-<center>
-<figure>
-<img src="point1.png" />
-·
-·
-·
-<img src="point2.png" />
-</figure>
-</center>
+![pic](bar1.png) | ![pic](bar2.png)
+---|---
