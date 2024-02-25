@@ -6,7 +6,9 @@ Vehicle Trajectory Prediction (VTP) plays a pivotal role in the Internet of Vehi
 
 ## Installation
 Install the required packages by following commands before training.
+
 `conda env create -f environment.yml`
+
 `conda activate fedvtp`
 
 ## Dataset
@@ -14,7 +16,9 @@ The NGSIM and HighD datasets can be downloaded from their official website. To s
 
 ## Running the experiments
 `python system_trajectory/train.py -data NGSIM -m stgcn -go stgcn -algo FedAvg -nc 6 -ls 3 -jr 1 -lbs 128 -gr 1000 -stg 3 -txp 5`
+
 `python system_trajectory/train.py -data HIGHD -m stgcn -go stgcn -algo FedAvg -nc 6 -ls 3 -jr 1 -lbs 128 -gr 1000 -stg 3 -txp 5`
+
 Models will be saved at `/models` with the dataset name and training datetime.
 
 ## Result
@@ -22,6 +26,7 @@ Models will be saved at `/models` with the dataset name and training datetime.
     <img src="bar1.png">
     <img src="bar2.png">
 </figure>
+
 <figure class="half">
     <img src="point1.png">
     <img src="point2.png">
