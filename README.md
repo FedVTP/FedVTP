@@ -18,7 +18,11 @@ The NGSIM and HighD datasets can be downloaded from their official website. To s
 Models will be saved at `/models` with the dataset name and training datetime.
 
 ## Result
-![Pic](bar1.png)
-![Pic](bar2.png)
-![Pic](point1.png)
-![Pic](point2.png)
+<figure class="half">
+    <img src="bar1.png">
+    <img src="bar2.png">
+</figure>
+<figure class="half">
+    <img src="point1.png">
+    <img src="point2.png">
+</figure>
