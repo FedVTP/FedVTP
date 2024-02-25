@@ -125,26 +125,26 @@ def main():
         finally_data.reset_index(drop=True, inplace=True)
         # save_data(finally_data, str(site))
         if i == 3:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         elif i == 6:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         elif i == 10:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         elif i in [22, 23, 24]:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         elif i in [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         elif i == 60:
-            finally_data.to_csv('/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+            finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
         else :
             finally_data.to_csv(
-                '/data/why/workspace/FederatedLearning/dataset/HIGHD/rawdata/train/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
+                'HIGHD/rawdata/train/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                 index=False, header=False)
 
 if __name__ == '__main__':
