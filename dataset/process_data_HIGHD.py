@@ -124,6 +124,7 @@ def main():
         finally_data = finally_data.sort_values(by='Global_Time')
         finally_data.reset_index(drop=True, inplace=True)
         # save_data(finally_data, str(site))
+        # 不同路段
         if i == 3:
             finally_data.to_csv('HIGHD/rawdata/val/' + str(site-1) + '/highd_site' + str(site) + "_" + str(i) + '.csv',
                                 index=False, header=False)
